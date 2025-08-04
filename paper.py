@@ -193,7 +193,7 @@ class ArxivPaper:
             messages=[
                 {
                     "role": "system",
-                    "content": "You are an assistant who perfectly summarizes scientific paper, and gives the core idea of the paper to the user.",
+                    "content": "You are an assistant who perfectly summarizes scientific paper, and gives the core idea of the paper to the user. Summarize the given paper in Chinese.",
                 },
                 {"role": "user", "content": prompt},
             ]
